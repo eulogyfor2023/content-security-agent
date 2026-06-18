@@ -15,7 +15,7 @@
 # ============================================
 
 # 第一步：进入项目目录
-cd "d:\msa\AI Agent\content-security-agent"
+cd content-security-agent
 
 # 第二步：安装依赖
 pip install -r requirements.txt
@@ -29,7 +29,7 @@ python seed.py
 #   - 默认使用阿里云 DashScope 兼容接口
 
 # 第五步：启动服务（必须在此目录下运行）
-cd "d:\msa\AI Agent\content-security-agent"
+cd content-security-agent
 python main.py
 
 # 或者
